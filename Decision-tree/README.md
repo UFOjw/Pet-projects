@@ -5,6 +5,7 @@ It is a supervised learning algorithm that can be used for both binary and multi
 The algorithm works by recursively splitting the dataset based on feature values to create subgroups.
 
 MSE and Weighted MSE are used as a criterion for splitting a node.
+
 ![equation](https://latex.codecogs.com/svg.image?&space;MSE_{weghted}&space;=&space;\frac{MSE_{left}&space;*&space;N_{left}&space;&plus;&space;MSE_{right}&space;*&space;N_{right}}{N_{left}&space;&plus;&space;N_{right}})
 
 And as a stopping criterion, two are used:
