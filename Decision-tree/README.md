@@ -14,6 +14,8 @@ And as a stopping criterion, two are used:
 
 This implementation uses a depth-tree construction method. His idea is that each node divides independently until one of the stopping criteria is reached.
 
+In order to train a tree, the class provides a `fit` method that takes 2 parameters `(X_train, y_train)`.
+
 It also provides visualization of the tree using the `as_json` function, which turns the DecisionTreeRegressor object into a **JSON** string.
 
-To predict results on new data, the `DecisionTreeRegressor` class has a `predict` method.
+To predict results on new data, the `DecisionTreeRegressor` class has a `predict` method that takes one parameter `(X_test)`.
