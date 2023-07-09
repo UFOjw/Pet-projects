@@ -6,4 +6,4 @@ Parameter optimization is performed using classical gradient boosting.
 
 The model is described in the *model.py* file.
 
-![image](https://raw.githubusercontent.com/UFOjw/Digit-classifier/main/data/1.png)
+![1](https://github.com/UFOjw/Pet-projects/assets/95556055/977a0b6b-1624-4083-a59a-6bc987529504)
