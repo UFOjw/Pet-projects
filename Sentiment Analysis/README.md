@@ -25,4 +25,4 @@ The lightweight and fast version of the `BERT-architecture`, `DistilBERT`, is us
 The full pipeline is shown in the picture below.
 ![4](https://jalammar.github.io/images/distilBERT/bert-model-calssification-output-vector-cls.png)
 
-All illustrations are taken from the ![article](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
+All illustrations are taken from the [article](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
