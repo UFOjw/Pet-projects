@@ -12,7 +12,7 @@ The service receives a `click` and a `list of offers` that we can offer. Using t
 
 Greedy implementation:
 
-![eps](https://latex.codecogs.com/svg.image?Action(t)=\left\{\begin{matrix}max(RPC(a))\\anyaction(a)\\\end{matrix}\right)
+![eps](https://storage.yandexcloud.net/klms-public/production/learning-content/55/1230/16303/47037/253254/Новый%20проект.png)
 
 UCB implementation:
 
