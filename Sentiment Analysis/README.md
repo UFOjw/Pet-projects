@@ -25,3 +25,6 @@ The full pipeline is shown in the picture below.
 ![4](https://jalammar.github.io/images/distilBERT/bert-model-calssification-output-vector-cls.png)
 
 All illustrations are taken from the [article](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
+
+
+![](https://jalammar.github.io/images/distilBERT/bert-distilbert-tutorial-sentence-embedding.png)  |  ![](https://jalammar.github.io/images/distilBERT/bert-distilbert-tutorial-sentence-embedding.png)
