@@ -10,10 +10,18 @@ This repository provides a mini-service that recommends an offer based on user c
 
 The service receives a `click` and a `list of offers` that we can offer. Using the `epsilon-greedy` algorithm and the `UCB` algorithm, we recommend ads to the user.
 
+Greedy implementation:
+
+![eps](https://latex.codecogs.com/svg.image?ActionAtT(t)=\left\{\begin{matrix}max(RPC(a))&with&probability&(1-\epsilon)\\any&space;action(a)&with&probability&\epsilon\\\end{matrix}\right.)
+
+UCB implementation:
+
+![UCB](https://latex.codecogs.com/svg.image?UCB(a)=RPC(a)&plus;c\sqrt{\frac{log(t)}{NumberOfShows(a)_{t-1}}})
+
 We receive an answer from the service: did the user perform the target action in the format `click`, `reward`.
 
 Also on the service you can see the statistics for each offer:
-* Number of impressions
+* Number of shows
 * Number of targeted actions
 * Conversion
 * Total reward
