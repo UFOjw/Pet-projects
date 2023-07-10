@@ -1,5 +1,3 @@
 # Pet-projects
 
-This repository contains implementations of algorithms used in machine learning.
-
-The implemented algorithms are used in various areas of CV, NLP, RecSys, pricing, etc.
+This repository contains ready-made solutions for various tasks and models related to data analysis and recommender systems.
