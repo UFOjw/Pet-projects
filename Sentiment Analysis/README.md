@@ -15,11 +15,15 @@ This repository contains a baseline solution for this problem:
 * Because the output word representations are of different lengths, multiprocessing is not possible. So the next step is to add `padding` (`normal`, `dynamic`).
 * Technically, after applying padding, embeddings have empty extra tokens. In order for the model to not take into account extra tokens during processing, `attention_mask` is calculated and passed, which nulls the weight of empty tokens.
 
+<p align="center">
 <img src="https://github.com/UFOjw/Pet-projects/assets/95556055/1966e23a-e012-48d6-8dbf-b6bc4f3409ea" alt="drawing" width="900"/>
+</p>
 
 * At the output of BERT, we have context-based word embeddings, and the first of them is a vector representation of a sentence. Using these ideas, we move on to the final stage - learning logistic regression over embeddings.
 
+<p align="center">
 <img src="https://github.com/UFOjw/Pet-projects/assets/95556055/942e0107-8069-4004-bac0-884428ca6514" alt="drawing" width="700"/>
+</p>
 
 * To evaluate the results, the `evaluate` method calculates the cross-entropy for each fold when using cross-validation.
 
@@ -27,6 +31,8 @@ The lightweight and fast version of the `BERT-architecture`, `DistilBERT`, is us
 
 The full pipeline is shown in the picture below.
 
+<p align="center">
 <img src="https://jalammar.github.io/images/distilBERT/bert-model-calssification-output-vector-cls.png" alt="drawing" width="700"/>
+</p>
 
 All illustrations are taken from the [article](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
