@@ -19,7 +19,7 @@ This repository contains a baseline solution for this problem:
 
 * At the output of BERT, we have context-based word embeddings, and the first of them is a vector representation of a sentence. Using these ideas, we move on to the final stage - learning logistic regression over embeddings.
 
-<img src="!https://github.com/UFOjw/Pet-projects/assets/95556055/942e0107-8069-4004-bac0-884428ca6514" alt="drawing" width="700"/>
+<img src="https://github.com/UFOjw/Pet-projects/assets/95556055/942e0107-8069-4004-bac0-884428ca6514" alt="drawing" width="700"/>
 
 * To evaluate the results, the `evaluate` method calculates the cross-entropy for each fold when using cross-validation.
 
