@@ -6,3 +6,4 @@ The main idea is to train a new model that will correct the "errors" of the prev
 
 This is achieved by finding the gradient of the loss function (eg MSE or MAE) with respect to the predictions of the current ensemble of models and training the new model on those errors.
 
+![1](https://storage.yandexcloud.net/klms-public/production/learning-content/55/1255/22321/64360/300276/gradient_boosting_2.gif)
