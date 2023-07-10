@@ -26,6 +26,7 @@ This repository contains a baseline solution for this problem:
 The lightweight and fast version of the `BERT-architecture`, `DistilBERT`, is used as a model. It has 40% less parameters than bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark.
 
 The full pipeline is shown in the picture below.
-![4](https://jalammar.github.io/images/distilBERT/bert-model-calssification-output-vector-cls.png)
+
+<img src="https://jalammar.github.io/images/distilBERT/bert-model-calssification-output-vector-cls.png" alt="drawing" width="700"/>
 
 All illustrations are taken from the [article](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
