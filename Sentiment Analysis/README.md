@@ -14,7 +14,7 @@ This repository contains a baseline solution for this problem:
 - First, the review dataset is tokenized, turning it into indices.
 - Because the output word representations are of different lengths, multiprocessing is not possible. So the next step is to add `padding` (`normal`, `dynamic`).
 - Technically, after applying padding, embeddings have empty extra tokens. In order for the model to not take into account extra tokens during processing, `attention_mask` is calculated and passed, which nulls the weight of empty tokens.
-<img src="https://jalammar.github.io/images/distilBERT/bert-distilbert-tutorial-sentence-embedding.png" alt="drawing" width="1200"/>
+<img src="https://jalammar.github.io/images/distilBERT/bert-distilbert-tutorial-sentence-embedding.png" alt="drawing" width="900"/>
 - At the output of BERT, we have context-based word embeddings, and the first of them is a vector representation of a sentence. Using these ideas, we move on to the final stage - learning logistic regression over embeddings.
 ![2](https://jalammar.github.io/images/distilBERT/bert-distilbert-train-test-split-sentence-embedding.png)
 ![3](https://jalammar.github.io/images/distilBERT/bert-training-logistic-regression.png)
